@@ -22,6 +22,7 @@
         {{column.label}}
       </slot>
         <button
+        type="button"
         v-if="isSortableColumn(column)"
         @click="sort($event, column)">
         <span class="sr-only">
