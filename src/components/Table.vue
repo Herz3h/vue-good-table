@@ -628,7 +628,8 @@ export default {
           }
         });
       });
-      return selectedRows.sort((r1, r2) => r1.originalIndex - r2.originalIndex);
+
+      return selectedRows;
     },
 
     fullColspan() {
